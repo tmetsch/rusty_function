@@ -9,7 +9,7 @@ Key files to keep in mind when developing your function:
 
   * [main.rs](src/main.rs) - your logic goes here.
   * [host.json](host.json) - define the executable in this file,
-  * [function.json](Rustfunction/function.json) - while this file is used to define how Azure while trigger the
+  * [function.json](RustFunction/function.json) - while this file is used to define how Azure while trigger the
     function. Note the *$return* value configured here.
 
 For more information 
